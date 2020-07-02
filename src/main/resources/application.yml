@@ -14,3 +14,12 @@ spring:
       host: db
       port: 27017
       database: client-api
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      base-path: null
+      path-mapping:
+        health: /healthcheck
