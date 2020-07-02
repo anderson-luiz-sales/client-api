@@ -7,7 +7,7 @@ O que você precisa instalar para rodar o projeto?
 * [JRE-8](https://www.oracle.com/technetwork/pt/java/javase/downloadsjre8-downloads-2133155.html) 
 ### Instalação 
 ```
- git clone git@gitlab.com:swift-digital-br/operation/middlewares/mobile-manager-api.git 
+ git clone https://github.com/anderson-luiz-sales/client-api.git
 ```
 ### Como rodar a API 
 ```
