@@ -1,0 +1,16 @@
+swagger:
+  contact:
+    name: Anderson Sales
+    email: anderson.luiz.sales@gmail.com
+  app:
+    name: Client API
+    version: 0.0.1
+    description: API responsável por gerenciar crud de clientes.
+  base:
+    package: br.com.client.clientapi
+spring:
+  data:
+    mongodb:
+      host: db
+      port: 27017
+      database: client-api

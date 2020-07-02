@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+  server:
+    entrypoint: ["sh", "-c", "java -Ddebug -cp app:app/lib/* br.com.client.clientapi.ClientApiApplication"]
+    environment:
+      - APP_ENV=dev
+    depends_on:
+      - db
+    links:
+      - db
+  db:
+    image: 'mongo'
+    container_name: mongodb-client-api
+    ports:
+      - '27017:27017'
+    volumes:
+      - ./data/db:/data/db
