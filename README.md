@@ -1,4 +1,4 @@
-# client-api
+# Client Api
 API responsável por gerenciar crud de clientes.
 ### Pré-requisitos 
 O que você precisa instalar para rodar o projeto? 
